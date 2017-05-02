@@ -14,8 +14,8 @@ section.has-light-background, section.has-light-background h1, section.has-light
  *********************************************/
 /* line 7, template/theme.scss */
 body {
-  background: #1BB470;
-  background-color: #1BB470;
+  background: #000;
+  background-color: #000;
 }
 
 /* line 12, template/theme.scss */
