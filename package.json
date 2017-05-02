@@ -7,7 +7,8 @@
   "license": "MIT",
   "scripts": {
     "start": "reveal-md slides.md --theme thoughtworks",
-    "build": "./scripts/build.sh"
+    "build": "./scripts/build.sh",
+    "deploy": "npm run build && gh-pages -d build"
   },
   "dependencies": {
     "gh-pages": "^0.12.0",
