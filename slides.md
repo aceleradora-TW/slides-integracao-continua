@@ -182,6 +182,35 @@ Validar toda vez que integrar
 
 ----
 
+E a entrega contínua?
+
+----
+
+### Entrega contínua
+
+----
+
+É uma extensão natural da integração contínua. É quando um time tenta garantir
+que toda mudança no sistema pode ir diretamente à produção, de forma muito fácil (apertando um botão).
+
+----
+
+Toda mudança pode ir pra produção
+
+----
+
+Deployments pra produção são fáceis. É só apertar um botão.
+
+----
+
+Deployments são frequentes. Queremos feedbacks dos usuários.
+
+----
+
+### Wercker e Heroku
+
+----
+
 <h3 class="spaced-text" style="text-align:left">Links Bacanas</h3>
 
 <div style="float: left">
@@ -189,7 +218,6 @@ Validar toda vez que integrar
     <li><a href="https://www.thoughtworks.com/continuous-integration">O que é Integração Contínua?</a></li>
     <li><a href="https://www.thoughtworks.com/continuous-delivery">O que é Entrega Contínua?</a></li>
     <li><a href="https://martinfowler.com/bliki/CanaryRelease.html">Canary Release</a></li>
-    <li><a href="https://martinfowler.com/articles/feature-toggles.html">Feature Toggle</a></li>
     <li><a href="https://martinfowler.com/articles/feature-toggles.html">Feature Toggle</a></li>
     <li><a href="https://guides.github.com/introduction/flow/">GitHub Flow com Pull Requests</a></li>
     <li><a href="https://guides.github.com/introduction/flow/https://martinfowler.com/bliki/FeatureBranch.html">Feature Branching e CI</a></li>
