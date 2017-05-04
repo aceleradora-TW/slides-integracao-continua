@@ -25,13 +25,15 @@
     <li> Cada par trabalha em uma parte</li>
     <li> <b class="green">TESTAMOS</b> nosso código</li>
     <li> O trabalho de cada par precisa  ser <b class="green">INTEGRADO</b> </li>
-    <li> Tá consistente? vai pra aprovação do PO </li>
+    <li> Tá consistente? Vai pra aprovação do PO </li>
     <li> PO aprovou? Vai pra <b class="green">PRODUÇÃO</b></li>
   </ul>
 </div>
 </script></section><section data-markdown><script type="text/template">
 <h3 class="spaced-text" style="text-align:left">O que é produção?</h3>
 </script></section><section data-markdown><script type="text/template">
+<h3 class="spaced-text" style="text-align:left">Caminho para produção</h3>
+
 <img src="./images/producao.png" style="width:100% !important; height:100%;"/>
 </script></section><section data-markdown><script type="text/template">
 <h3 class="spaced-text" style="text-align:left">ANTIGAMENTE</h3>
@@ -42,10 +44,8 @@
     <li> projeto-backup.old.rar </li>
     <li> projeto-backup1.old.rar </li>
     <li> Alguém tinha que ser o GIT humano </li>
-    <li> Alguns testes manuais </li>
+    <li> Testes manuais </li>
     <li> "Vamos pra produção no fim de semana..." </li>
-    <li> "Na minha máquina funciona..." </li>
-    <li> "No que será que a fulana tá trabalhando?" </li>
   </ul>
 </div>
 </script></section><section data-markdown><script type="text/template">
@@ -53,17 +53,72 @@
 
 <div style="float: left">
   <ul>
-    <li> Versão de controle </li>
+    <li> Ferramentas de versão de controle </li>
     <li> Testes automatizados </li>
-    <li> "Na minha máquina funciona..." </li>
+    <li> Automatização de deployments </li>
+    <li> Automatização de infraestrutura </li>
   </ul>
 </div>
 </script></section><section data-markdown><script type="text/template">
-“A integração contínua não elimina os bugs, porém, ela torna drasticamente mais fácil encontrá-los e corrigi-los."
+<img src="./images/testing-pyramid.png" style="width:100% !important; height:100%;"/>
+</script></section><section data-markdown><script type="text/template">
+### Integração Contínua
+</script></section><section data-markdown><script type="text/template">
+É uma técnica utilizada por times de desenvolvimento para garantir a
+construção distribuída de software de maneira consistente e simples.
+</script></section><section data-markdown><script type="text/template">
+Integrar várias vezes ao dia
+</script></section><section data-markdown><script type="text/template">
+Validar toda vez que integrar
+</script></section><section data-markdown><script type="text/template">
+“A integração contínua não elimina os bugs, porém, ela os torna drasticamente mais fáceis de encontrar e corrigir."
 
 \- Martin Fowler
 </script></section><section data-markdown><script type="text/template">
-<h3 class="spaced-text" style="text-align:left">Como trabalhar com git?</h3>
+### Por que usar?
+
+<ul>
+  <li>Maior integridade do que está sendo construído</li>
+  <li>Feedbacks mais rápidos sobre o que está errado</li>
+  <li>Mais fácil traçar um caminho para produção</li>
+  <li>Mais qualidade e velocidade nas entregas</li>
+</ul>
+</script></section><section data-markdown><script type="text/template">
+### Práticas
+
+<ul style="float:left">
+  <li>✅ Repositório único de código </li>
+  <li>✅ Automatizar o build </li>
+  <li>✅ Todo commit deve passar pela bateria de testes </li>
+  <li>✅ Manter o build rápido </li>
+  <li>Ambiente de testes muito próximo ao de produção</li>
+  <li>Última versão executável facilmente acessível </li>
+  <li>✅ Todos podem ver o que está acontecendo </li>
+  <li>✅ Deployment automatizado </li>
+</ul>
+</script></section><section data-markdown><script type="text/template">
+### Como funciona
+
+<ul style="float:left">
+  <li>O time commita o código no repositório</li>
+  <li>O CI roda um build a cada novo commit</li>
+  <li>O CI informa o time se deu tudo certo</li>
+  <li>Ou o CI informa o time se deu tudo errado</li>
+  <li>O time corrige o mais rápido possível</li>
+  <li>A vida segue, tranquilamente</li>
+</ul>
+</script></section><section data-markdown><script type="text/template">
+### Eu prometo tentar:
+
+<ul>
+  <li>Commitar com frequência</li>
+  <li>Não commitar código quebrado</li>
+  <li>Não commitar código não testado\*</li>
+  <li>Não commitar quando o build estiver quebrado\*</li>
+  <li>Não ir embora depois de commitar sem ver o resultado\*</li>
+</ul>
+</script></section><section data-markdown><script type="text/template">
+<h3 class="spaced-text" style="text-align:left">Um dia na Aceleradora</h3>
 </script></section><section data-markdown><script type="text/template">
 <img src="./images/trunk-01.png" style="width:100% !important; height:100%;"/>
 </script></section><section data-markdown><script type="text/template">
