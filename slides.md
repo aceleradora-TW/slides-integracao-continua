@@ -26,6 +26,8 @@
 
 ----
 
+<h3 class="spaced-text" style="text-align:left">Caminho para produção</h3>
+
 <img src="./images/producao.png" style="width:100% !important; height:100%;"/>
 
 ----
@@ -38,7 +40,7 @@
     <li> projeto-backup.old.rar </li>
     <li> projeto-backup1.old.rar </li>
     <li> Alguém tinha que ser o GIT humano </li>
-    <li> Alguns testes manuais </li>
+    <li> Testes manuais </li>
     <li> "Vamos pra produção no fim de semana..." </li>
   </ul>
 </div>
@@ -49,10 +51,9 @@
 
 <div style="float: left">
   <ul>
-    <li> Versão de controle </li>
-    <li> Diferentes tipos de testes </li>
+    <li> Ferramentas de versão de controle </li>
     <li> Testes automatizados </li>
-    <li> Automatização de deploys </li>
+    <li> Automatização de deployments </li>
     <li> Automatização de infraestrutura </li>
   </ul>
 </div>
@@ -63,13 +64,81 @@
 
 ----
 
-“A integração contínua não elimina os bugs, porém, ela torna drasticamente mais fácil encontrá-los e corrigi-los."
+### Integração Contínua
+
+----
+
+É uma técnica utilizada por times de desenvolvimento para garantir a
+construção distribuída de software de maneira consistente e simples.
+
+----
+
+Integrar várias vezes ao dia
+
+----
+
+Validar toda vez que integrar
+
+----
+
+“A integração contínua não elimina os bugs, porém, ela os torna drasticamente mais fáceis de encontrar e corrigir."
 
 \- Martin Fowler
 
 ----
 
-<h3 class="spaced-text" style="text-align:left">Como trabalhar com git?</h3>
+### Por que usar?
+
+<ul>
+  <li>Maior integridade do que está sendo construído</li>
+  <li>Feedbacks mais rápidos sobre o que está errado</li>
+  <li>Mais fácil traçar um caminho para produção</li>
+  <li>Mais qualidade e velocidade nas entregas</li>
+</ul>
+
+----
+
+### Práticas
+
+<ul style="float:left">
+  <li>✅ Repositório único de código </li>
+  <li>✅ Automatizar o build </li>
+  <li>✅ Todo commit deve passar pela bateria de testes </li>
+  <li>✅ Manter o build rápido </li>
+  <li>Ambiente de testes muito próximo ao de produção</li>
+  <li>Última versão executável facilmente acessível </li>
+  <li>✅ Todos podem ver o que está acontecendo </li>
+  <li>✅ Deployment automatizado </li>
+</ul>
+
+----
+
+### Como funciona
+
+<ul style="float:left">
+  <li>O time commita o código no repositório</li>
+  <li>O CI roda um build a cada novo commit</li>
+  <li>O CI informa o time se deu tudo certo</li>
+  <li>Ou o CI informa o time se deu tudo errado</li>
+  <li>O time corrige o mais rápido possível</li>
+  <li>A vida segue, tranquilamente</li>
+</ul>
+
+----
+
+### Eu prometo tentar:
+
+<ul>
+  <li>Commitar com frequência</li>
+  <li>Não commitar código quebrado</li>
+  <li>Não commitar código não testado\*</li>
+  <li>Não commitar quando o build estiver quebrado\*</li>
+  <li>Não ir embora depois de commitar sem ver o resultado\*</li>
+</ul>
+
+----
+
+<h3 class="spaced-text" style="text-align:left">Um dia na Aceleradora</h3>
 
 ----
 
