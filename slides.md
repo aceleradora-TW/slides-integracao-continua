@@ -15,7 +15,7 @@
     <li> Cada par trabalha em uma parte</li>
     <li> <b class="green">TESTAMOS</b> nosso código</li>
     <li> O trabalho de cada par precisa  ser <b class="green">INTEGRADO</b> </li>
-    <li> Tá consistente? vai pra aprovação do PO </li>
+    <li> Tá consistente? Vai pra aprovação do PO </li>
     <li> PO aprovou? Vai pra <b class="green">PRODUÇÃO</b></li>
   </ul>
 </div>
@@ -40,8 +40,6 @@
     <li> Alguém tinha que ser o GIT humano </li>
     <li> Alguns testes manuais </li>
     <li> "Vamos pra produção no fim de semana..." </li>
-    <li> "Na minha máquina funciona..." </li>
-    <li> "No que será que a fulana tá trabalhando?" </li>
   </ul>
 </div>
 
@@ -52,10 +50,16 @@
 <div style="float: left">
   <ul>
     <li> Versão de controle </li>
+    <li> Diferentes tipos de testes </li>
     <li> Testes automatizados </li>
-    <li> "Na minha máquina funciona..." </li>
+    <li> Automatização de deploys </li>
+    <li> Automatização de infraestrutura </li>
   </ul>
 </div>
+
+----
+
+<img src="./images/testing-pyramid.png" style="width:100% !important; height:100%;"/>
 
 ----
 
