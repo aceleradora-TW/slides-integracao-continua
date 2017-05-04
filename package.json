@@ -8,6 +8,7 @@
   "scripts": {
     "start": "reveal-md slides.md --theme thoughtworks",
     "build": "./scripts/build.sh",
+    "test": "npm run build && open build/index.html",
     "deploy": "npm run build && gh-pages -d build"
   },
   "dependencies": {
