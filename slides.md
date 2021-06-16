@@ -207,7 +207,7 @@ Deployments são frequentes. Queremos feedbacks dos usuários.
 
 ----
 
-### Wercker e Heroku
+### Circle CI e Heroku
 
 ----
 
